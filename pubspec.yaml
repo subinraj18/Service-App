@@ -1,0 +1,72 @@
+name: miniproject
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_core: ^3.10.1
+  cloud_firestore: ^5.6.2
+  google_sign_in: ^6.2.2
+  firebase_auth: ^5.4.1
+  image_picker: ^1.1.2
+  firebase_storage: ^12.4.1
+  shared_preferences: ^2.5.1
+  google_fonts: ^6.2.1
+  lottie: ^3.3.1
+  intl: ^0.20.2
+  rxdart: ^0.28.0
+  animated_splash_screen: ^1.3.0
+  flutter_secure_storage: ^9.2.4
+  fluttertoast: ^8.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/logo.jpg"
+  adaptive_icon_background: "#ffffff" # Background color (for Android 8+)
+  adaptive_icon_foreground: "assets/images/logo.jpg" # Foreground image
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/prakash.jpg
+    - assets/images/uniform.jpg
+    - assets/images/pen.jpeg
+    - assets/images/marian.jpg
+    - assets/images/note.jpg
+    - assets/images/biriyani.jpeg
+    - assets/images/parotta.jpg
+    - assets/images/meals.png
+    - assets/images/lime.jpg
+    - assets/images/user_image.jpg
+    - assets/images/money.jpg
+    - assets/images/goal.png
+    - assets/images/budget.png
+    - assets/images/money.png
+    - assets/images/sign.png
+    - assets/images/logo.jpg
+    - assets/images/cafeteria.png
+    - assets/images/login.png
+    - assets/images/signup.png
+    - assets/images/start.png
+    - assets/images/from.png
+    - assets/videos/intro.json
+    - assets/images/stocks.jpeg
+    - assets/animations/splash_animation.json
+    - assets/images/qrcode.jpg
